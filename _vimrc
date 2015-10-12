@@ -27,4 +27,4 @@ function MyDiff()
   endif
   silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
 endfunction
-colorscheme solarized
+colorscheme desert
