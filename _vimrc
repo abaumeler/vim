@@ -27,6 +27,9 @@ function MyDiff()
   endif
   silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
 endfunction
-colorscheme desert
+colorscheme slate
 execute pathogen#infect()
 set nu
+set guioptions-=m  "menu bar
+set guioptions-=T  "toolbar
+set guioptions-=r  "scrollbar
