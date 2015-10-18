@@ -30,6 +30,13 @@ endfunction
 "color
 colorscheme gruvbox
 
+"let
+let g:airline_powerline_fonts = 1
+let wiki_1 = {}
+let wiki_1.path = '$HOME/Dropbox/Dokumente/Wiki'
+let wiki_1.index = 'PersonalWiki'
+let g:vimwiki_list = [wiki_1]
+
 "pathogen plugin loader
 execute pathogen#infect()
 
@@ -43,6 +50,7 @@ set laststatus=2
 set nocompatible
 set syntax=on
 set encoding=utf-8
+set guifont=Meslo\ LG\ L\ DZ\ for\ Powerline:h11
 
 "filetypes
 :filetype plugin on
