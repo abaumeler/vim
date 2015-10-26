@@ -50,7 +50,8 @@ set laststatus=2
 set nocompatible
 set syntax=on
 set encoding=utf-8
-set guifont=Meslo\ LG\ L\ DZ\ for\ Powerline:h11
+set guifont=Meslo\ LG\ L\ DZ\ for\ Powerline:h10
+set tw=80 "restrict text width to 80 characters
 
 "filetypes
 :filetype plugin on
@@ -59,3 +60,5 @@ set guifont=Meslo\ LG\ L\ DZ\ for\ Powerline:h11
 
 "mapping
 let mapleader = ","
+
+

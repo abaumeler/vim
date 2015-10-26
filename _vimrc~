@@ -34,6 +34,7 @@ colorscheme gruvbox
 let g:airline_powerline_fonts = 1
 let wiki_1 = {}
 let wiki_1.path = '$HOME/Dropbox/Dokumente/Wiki'
+let wiki_1.index = 'PersonalWiki'
 let g:vimwiki_list = [wiki_1]
 
 "pathogen plugin loader
@@ -49,7 +50,8 @@ set laststatus=2
 set nocompatible
 set syntax=on
 set encoding=utf-8
-set guifont=Meslo\ LG\ L\ DZ\ for\ Powerline:h11
+set guifont=Meslo\ LG\ L\ DZ\ for\ Powerline:h10
+set tw=80 "restrict text width to 80 characters
 
 "filetypes
 :filetype plugin on
@@ -58,3 +60,8 @@ set guifont=Meslo\ LG\ L\ DZ\ for\ Powerline:h11
 
 "mapping
 let mapleader = ","
+
+augroup vimrc_autocmds
+  autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#592929
+  autocmd BufEnter * match OverLength /\%74v.*/
+augroup END
