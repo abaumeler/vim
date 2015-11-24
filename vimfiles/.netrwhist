@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='C:/Users/Andres/Dropbox/UNI'
 let g:netrw_dirhist_2='C:/Users/Andres/Dropbox/UNI/2015_HS'
 let g:netrw_dirhist_3='C:/Users/Andres/Dropbox/UNI/2015_HS/Datenbanken Praktikum'
+let g:netrw_dirhist_4='C:/users/Andres/Desktop'

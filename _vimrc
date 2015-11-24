@@ -50,7 +50,7 @@ set laststatus=2
 set nocompatible
 set syntax=on
 set encoding=utf-8
-set guifont=Meslo\ LG\ L\ DZ\ for\ Powerline:h10
+set guifont=Meslo\ LG\ L\ DZ\ for\ Powerline:h8
 set tw=80 "restrict text width to 80 characters
 
 "filetypes
